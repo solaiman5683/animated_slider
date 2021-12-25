@@ -146,7 +146,7 @@ contentSection.addEventListener('scroll', () => {
 				<div class="h-100 d-md-flex align-items-end p-5 text-light">
 				<div>
 					<img src="images/awards.png" alt="" class="w-50 mb-3" />
-					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h1 class="text-bolder display-1">ABC 456</h1>
 					<h3 class="text-dim w-75">
 						We are the best Web Developer company in the world!
 					</h3>
@@ -212,8 +212,7 @@ contentSection.addEventListener('scroll', () => {
 		leftSection.innerHTML = `
 				<div class="h-100 d-md-flex align-items-end p-5 text-light">
 				<div>
-					<img src="images/awards.png" alt="" class="w-50 mb-3" />
-					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h1 class="text-bolder display-1">ABC 789</h1>
 					<h3 class="text-dim w-75">
 						We are the best Web Developer company in the world!
 					</h3>
@@ -278,8 +277,7 @@ contentSection.addEventListener('scroll', () => {
 		leftSection.innerHTML = `
 				<div class="h-100 d-md-flex align-items-end p-5 text-light">
 				<div>
-					<img src="images/awards.png" alt="" class="w-50 mb-3" />
-					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h1 class="text-bolder display-1">ABC 1224</h1>
 					<h3 class="text-dim w-75">
 						We are the best Web Developer company in the world!
 					</h3>
@@ -343,8 +341,7 @@ contentSection.addEventListener('scroll', () => {
 		leftSection.innerHTML = `
 				<div class="h-100 d-md-flex align-items-end p-5 text-light">
 				<div>
-					<img src="images/awards.png" alt="" class="w-50 mb-3" />
-					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h1 class="text-bolder display-1">ABC 5586</h1>
 					<h3 class="text-dim w-75">
 						We are the best Web Developer company in the world!
 					</h3>
@@ -407,8 +404,7 @@ contentSection.addEventListener('scroll', () => {
 		leftSection.innerHTML = `
 				<div class="h-100 d-md-flex align-items-end p-5 text-light">
 				<div>
-					<img src="images/awards.png" alt="" class="w-50 mb-3" />
-					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h1 class="text-bolder display-1">ABC 786</h1>
 					<h3 class="text-dim w-75">
 						We are the best Web Developer company in the world!
 					</h3>
@@ -469,8 +465,8 @@ contentSection.addEventListener('scroll', () => {
 		leftSection.innerHTML = `
 				<div class="h-100 d-md-flex align-items-end p-5 text-light">
 				<div>
-					<img src="images/awards.png" alt="" class="w-50 mb-3" />
-					<h1 class="text-bolder display-1">ABC 123</h1>
+					<img src="images/entrepreneur.png" alt="" class="w-50 mb-3" />
+					<h1 class="text-bolder display-1">ABC 999</h1>
 					<h3 class="text-dim w-75">
 						We are the best Web Developer company in the world!
 					</h3>
