@@ -73,6 +73,40 @@ contentSection.addEventListener('scroll', () => {
 		text.innerHTML = `
 				<h2>2.5M Downloads</h2>
 				<h5>on AppStore and PlayStore</h5>`;
+
+		leftSection.innerHTML = `
+		<div class="h-100 d-md-flex align-items-end p-5 text-light">
+		<div>
+			<img src="images/awards.png" alt="" class="w-50 mb-3" />
+			<h1 class="text-bolder display-1">ABC 123</h1>
+			<h3 class="text-dim w-75">
+				We are the best Web Developer company in the world!
+			</h3>
+			<div
+				class="
+					mt-5
+					d-md-flex
+					justify-content-between
+					align-items-center
+				"
+			>
+				<p>
+					<a href="#" class="text-decoration-none text-light">
+						<span>View Case Studies </span>
+						<i class="fas fa-long-arrow-alt-right ms-2"></i>
+					</a>
+				</p>
+				<p>
+					<a
+						href="#section2"
+						class="text-decoration-none text-light fs-5"
+					>
+						<span>Skip</span>
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>`;
 	} else if (draw <= 682.6874990844726 && draw > 543.8756103515625) {
 		text.className = ' ';
 		text.classList.add('sec2');
@@ -107,6 +141,40 @@ contentSection.addEventListener('scroll', () => {
 				<h4>The Next Big</h4>
 				<h2>Block Chain </h2>
 				<h5>Revolution</h5>`;
+
+		leftSection.innerHTML = `
+				<div class="h-100 d-md-flex align-items-end p-5 text-light">
+				<div>
+					<img src="images/awards.png" alt="" class="w-50 mb-3" />
+					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h3 class="text-dim w-75">
+						We are the best Web Developer company in the world!
+					</h3>
+					<div
+						class="
+							mt-5
+							d-md-flex
+							justify-content-between
+							align-items-center
+						"
+					>
+						<p>
+							<a href="#" class="text-decoration-none text-light">
+								<span>View Case Studies </span>
+								<i class="fas fa-long-arrow-alt-right ms-2"></i>
+							</a>
+						</p>
+						<p>
+							<a
+								href="#section3"
+								class="text-decoration-none text-light fs-5"
+							>
+								<span>Skip</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>`;
 	} else if (draw <= 543.8756103515625 && draw > 407.9067077636719) {
 		text.className = ' ';
 		text.classList.add('sec3');
@@ -140,6 +208,40 @@ contentSection.addEventListener('scroll', () => {
 				<h4>Redefining</h4>
 				<h2>UX Strategy</h2>
 				<h5>and UI design</h5>`;
+
+		leftSection.innerHTML = `
+				<div class="h-100 d-md-flex align-items-end p-5 text-light">
+				<div>
+					<img src="images/awards.png" alt="" class="w-50 mb-3" />
+					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h3 class="text-dim w-75">
+						We are the best Web Developer company in the world!
+					</h3>
+					<div
+						class="
+							mt-5
+							d-md-flex
+							justify-content-between
+							align-items-center
+						"
+					>
+						<p>
+							<a href="#" class="text-decoration-none text-light">
+								<span>View Case Studies </span>
+								<i class="fas fa-long-arrow-alt-right ms-2"></i>
+							</a>
+						</p>
+						<p>
+							<a
+								href="#section4"
+								class="text-decoration-none text-light fs-5"
+							>
+								<span>Skip</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>`;
 	} else if (draw <= 407.9067077636719 && draw > 286.975840485041) {
 		text.className = ' ';
 		text.classList.add('sec4');
@@ -172,6 +274,40 @@ contentSection.addEventListener('scroll', () => {
 				<h4>Stay Connected</h4>
 				<h2>With Social Media</h2>
 				<h5>and Get Notified</h5>`;
+
+		leftSection.innerHTML = `
+				<div class="h-100 d-md-flex align-items-end p-5 text-light">
+				<div>
+					<img src="images/awards.png" alt="" class="w-50 mb-3" />
+					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h3 class="text-dim w-75">
+						We are the best Web Developer company in the world!
+					</h3>
+					<div
+						class="
+							mt-5
+							d-md-flex
+							justify-content-between
+							align-items-center
+						"
+					>
+						<p>
+							<a href="#" class="text-decoration-none text-light">
+								<span>View Case Studies </span>
+								<i class="fas fa-long-arrow-alt-right ms-2"></i>
+							</a>
+						</p>
+						<p>
+							<a
+								href="#section5"
+								class="text-decoration-none text-light fs-5"
+							>
+								<span>Skip</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>`;
 	} else if (draw <= 286.975840485041 && draw > 142.2347506334155) {
 		text.className = ' ';
 		text.classList.add('sec5');
@@ -203,6 +339,40 @@ contentSection.addEventListener('scroll', () => {
 				<h4>Redefining</h4>
 				<h2>UX Strategy</h2>
 				<h5>and UI design</h5>`;
+
+		leftSection.innerHTML = `
+				<div class="h-100 d-md-flex align-items-end p-5 text-light">
+				<div>
+					<img src="images/awards.png" alt="" class="w-50 mb-3" />
+					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h3 class="text-dim w-75">
+						We are the best Web Developer company in the world!
+					</h3>
+					<div
+						class="
+							mt-5
+							d-md-flex
+							justify-content-between
+							align-items-center
+						"
+					>
+						<p>
+							<a href="#" class="text-decoration-none text-light">
+								<span>View Case Studies </span>
+								<i class="fas fa-long-arrow-alt-right ms-2"></i>
+							</a>
+						</p>
+						<p>
+							<a
+								href="#section6"
+								class="text-decoration-none text-light fs-5"
+							>
+								<span>Skip</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>`;
 	} else if (draw <= 142.2347506334155 && draw > 0) {
 		text.className = ' ';
 		text.classList.add('sec6');
@@ -233,6 +403,40 @@ contentSection.addEventListener('scroll', () => {
 				<h4>Redefining</h4>
 				<h2>UX Strategy</h2>
 				<h5>and UI design</h5>`;
+
+		leftSection.innerHTML = `
+				<div class="h-100 d-md-flex align-items-end p-5 text-light">
+				<div>
+					<img src="images/awards.png" alt="" class="w-50 mb-3" />
+					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h3 class="text-dim w-75">
+						We are the best Web Developer company in the world!
+					</h3>
+					<div
+						class="
+							mt-5
+							d-md-flex
+							justify-content-between
+							align-items-center
+						"
+					>
+						<p>
+							<a href="#" class="text-decoration-none text-light">
+								<span>View Case Studies </span>
+								<i class="fas fa-long-arrow-alt-right ms-2"></i>
+							</a>
+						</p>
+						<p>
+							<a
+								href="#section7"
+								class="text-decoration-none text-light fs-5"
+							>
+								<span>Skip</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>`;
 	} else if (draw === 0) {
 		text.className = ' ';
 		text.classList.add('sec7');
@@ -261,5 +465,39 @@ contentSection.addEventListener('scroll', () => {
 				<h4>World</h4>
 				<h2>Biggest Classified </h2>
 				<h5>East Asia Countries</h5>`;
+
+		leftSection.innerHTML = `
+				<div class="h-100 d-md-flex align-items-end p-5 text-light">
+				<div>
+					<img src="images/awards.png" alt="" class="w-50 mb-3" />
+					<h1 class="text-bolder display-1">ABC 123</h1>
+					<h3 class="text-dim w-75">
+						We are the best Web Developer company in the world!
+					</h3>
+					<div
+						class="
+							mt-5
+							d-md-flex
+							justify-content-between
+							align-items-center
+						"
+					>
+						<p>
+							<a href="#" class="text-decoration-none text-light">
+								<span>View Case Studies </span>
+								<i class="fas fa-long-arrow-alt-right ms-2"></i>
+							</a>
+						</p>
+						<p>
+							<a
+								href="#section1"
+								class="text-decoration-none text-light fs-5"
+							>
+								<span>Skip</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>`;
 	}
 });
