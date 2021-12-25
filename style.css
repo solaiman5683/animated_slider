@@ -11,6 +11,24 @@ p,
 	display: flex;
 	transition: all 0.5s ease;
 }
+#scrollText {
+	position: fixed;
+	left: 20%;
+	top: 12%;
+	z-index: 9999;
+	color: #fff;
+	/* width: 15%; */
+}
+h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+h5 {
+	text-align: end;
+}
 .item {
 	width: 350px;
 	height: 350px;
@@ -40,33 +58,18 @@ p,
 	fill: rgba(255, 253, 253, 0.349);
 }
 
-#sec1_left {
-	background-color: #5c00a0;
-}
-#sec2_left {
-	background-color: #4918c5;
-}
-#sec2_right {
+#section2 {
 	background: #1a005e;
 }
-#sec3_left {
-	background-color: #162539;
-}
-#sec3_right {
+#section3 {
 	background: #0e141b;
 	overflow: hidden;
 }
-#sec4_left {
-	background-color: #164b9d;
-}
-#sec4_right {
+#section4 {
 	background: #3cdedc;
 	overflow: hidden;
 }
-#sec5_left {
-	background: #05298d;
-}
-#sec5_right {
+#section5 {
 	background: url('images/room.jpg');
 	background-size: cover;
 	background-position: center;
@@ -76,22 +79,33 @@ p,
 /* #sec6_left {
 	background: #05298d;
 } */
-#sec6_right {
+#section6 {
 	background: url('images/interior.jpg');
 	background-size: cover;
 	background-position: center right;
 	overflow: hidden;
 }
-#sec7_left {
-	background: #0b944d;
-}
-#sec7_right {
+#section7 {
 	background: #10cf6a;
-	overflow: hidden;
 }
 
-section > div {
+#sec_left {
+	background: #5c00a0;
+	transition: all 1s linear;
+}
+#sec_right {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	height: 100vh;
+	scrollbar-width: auto;
+}
+section {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	scroll-snap-align: start;
+	transition: all 0.3s linear;
 }
 
 /* Media quary for mobile device */

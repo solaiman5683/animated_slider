@@ -1,58 +1,80 @@
-.owl-item.active .animate01 {
+.active .animate01 {
 	animation: fadeInDown 1s ease-in-out;
 	padding-left: 50px;
 }
-.owl-item.active .animate02 {
+.active .animate02 {
 	animation: fadeInUp 1s ease-in-out;
 }
-.owl-item.active .animate1 {
+.active .animate1 {
 	animation: fadeInUp 1s ease-in-out;
 	padding-left: 50px;
 	text-align: right;
 }
-.owl-item.active .animate2 {
+.active .animate2 {
 	animation: fadeInDown 1s ease-in-out;
 }
-.owl-item.active .animate3 {
+.active .animate3 {
 	animation: fadeInLeft 1s ease-in-out;
 }
-.owl-item.active .animate4 {
+.active .animate4 {
 	animation: fadeInUp 1s ease-in-out;
 }
-.owl-item.active .animate5 {
+.active .animate5 {
 	animation: fadeInRight 1s ease-in-out;
 }
-.owl-item.active .animate6 {
+.active .animate6 {
 	animation: fadeInLeft 1s ease-in-out;
 }
-.owl-item.active .animate7 {
+.active .animate7 {
 	animation: fadeInUp 1s ease-in-out;
 }
-.owl-item.active .animate8 {
+.active .animate8 {
 	animation: fadeInLeft 1s ease-in-out;
 }
-.owl-item.active .animate9 {
+.active .animate9 {
 	animation: fadeInUp 1s ease-in-out;
 }
-.owl-item.active .animate10 {
+.active .animate10 {
 	animation: fadeInTopRight 1s ease-in-out;
 }
-.owl-item.active .animate11 {
+.active .animate11 {
 	animation: fadeInBottomRight 1s ease-in-out;
 }
-.owl-item.active .animate12 {
+.active .animate12 {
 	animation: fadeInLeft 1s ease-in-out;
 }
-.owl-item.active .animate13 {
+.active .animate13 {
 	animation: fadeInUp 1s ease-in-out;
 }
-.owl-item.active .animate14 {
+.active .animate14 {
 	animation: zoomInRight 1s ease-in-out;
 }
-.owl-item.active .animate15 {
+.active .animate15 {
 	animation: zoomInUp 1s ease-in-out;
 	padding-left: 50px;
 }
-.owl-item.active .animate16 {
-	animation: slideInRight 1s ease-in-out;
+.active .animate16 {
+	animation: fadeInRight 1s ease-in-out;
+}
+
+.sec1 {
+	animation: fadeInLeft 1s ease-in-out;
+}
+.sec2 {
+	animation: fadeInUp 1s ease-in-out;
+}
+.sec3 {
+	animation: fadeInDown 1s ease-in-out;
+}
+.sec4 {
+	animation: slideInLeft 1s ease-in-out;
+}
+.sec5 {
+	animation: fadeInUp 1s ease-in-out;
+}
+.sec6 {
+	animation: fadeInLeft 1s ease-in-out;
+}
+.sec7 {
+	animation: fadeIn 1s ease-in-out;
 }

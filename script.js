@@ -18,32 +18,29 @@ let sec5 = document.getElementById('section5');
 let sec6 = document.getElementById('section6');
 let sec7 = document.getElementById('section7');
 
+// The start position of the drawing
 line.style.strokeDasharray = length;
 
-$(document).ready(function () {
-	$('.owl-carousel').owlCarousel({
-		items: 1,
-		animateOut: 'fadeOut',
-		animateIn: 'fadeIn',
-		dots: false,
-	});
-	$('.owl-carousel').on('mousewheel', '.owl-stage', function (e) {
-		console.log(e.deltaY);
-		if (e.deltaY > 0) {
-			$('.owl-carousel').trigger('next.owl');
-		} else {
-			$('.owl-carousel').trigger('prev.owl');
-		}
-		e.preventDefault();
-	});
-});
+// Hide the triangle by offsetting dash. Remove this line to show the triangle before scroll draw
+line.style.strokeDashoffset = length;
 
-var owl = $('.owl-carousel');
-owl.on('changed.owl.carousel', function (e) {
-	console.log('current: ', e.relatedTarget.current());
-	const current = e.relatedTarget.current();
-	if (current === 0) {
-		line.style.strokeDashoffset = 815.8134155273438;
+const leftSection = document.getElementById('sec_left');
+const contentSection = document.getElementById('sec_right');
+const text = document.getElementById('scrollText');
+contentSection.addEventListener('scroll', () => {
+	const scrollPercent =
+		contentSection.scrollTop /
+		(contentSection.scrollHeight - contentSection.clientHeight);
+
+	const draw = length - length * scrollPercent;
+	console.log(draw);
+	// Reverse the drawing (when scrolling upwards)
+	line.style.strokeDashoffset = draw;
+
+	// Change the position of the SVG Image (when scrolling)
+	if (draw <= 815.8134155273438 && draw > 682.6874990844726) {
+		text.className = ' ';
+		text.classList.add('sec1');
 
 		dot1.style.fill = 'rgb(0, 146, 255)';
 		dot2.style.fill = 'rgba(255, 253, 253, 0.349)';
@@ -63,8 +60,22 @@ owl.on('changed.owl.carousel', function (e) {
 		dot7.style.stroke = 'none';
 
 		svg.style.background = '#5C00A0';
-	} else if (current === 1) {
-		line.style.strokeDashoffset = 682.6874990844726;
+		leftSection.style.background = '#5C00A0';
+
+		sec1.classList.add('active');
+		sec2.classList.remove('active');
+		sec3.classList.remove('active');
+		sec4.classList.remove('active');
+		sec5.classList.remove('active');
+		sec6.classList.remove('active');
+		sec7.classList.remove('active');
+
+		text.innerHTML = `
+				<h2>2.5M Downloads</h2>
+				<h5>on AppStore and PlayStore</h5>`;
+	} else if (draw <= 682.6874990844726 && draw > 543.8756103515625) {
+		text.className = ' ';
+		text.classList.add('sec2');
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgba(255, 253, 253, 0.349)';
@@ -82,8 +93,23 @@ owl.on('changed.owl.carousel', function (e) {
 		dot7.style.stroke = 'none';
 
 		svg.style.background = '#4918C5';
-	} else if (current === 2) {
-		line.style.strokeDashoffset = 540.2909756469727;
+		leftSection.style.background = '#4918C5';
+
+		sec1.classList.remove('active');
+		sec2.classList.add('active');
+		sec3.classList.remove('active');
+		sec4.classList.remove('active');
+		sec5.classList.remove('active');
+		sec6.classList.remove('active');
+		sec7.classList.remove('active');
+
+		text.innerHTML = `
+				<h4>The Next Big</h4>
+				<h2>Block Chain </h2>
+				<h5>Revolution</h5>`;
+	} else if (draw <= 543.8756103515625 && draw > 407.9067077636719) {
+		text.className = ' ';
+		text.classList.add('sec3');
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
@@ -100,8 +126,23 @@ owl.on('changed.owl.carousel', function (e) {
 		dot7.style.stroke = 'none';
 
 		svg.style.background = '#162539';
-	} else if (current === 3) {
-		line.style.strokeDashoffset = 404.56928924560543;
+		leftSection.style.background = '#162539';
+
+		sec1.classList.remove('active');
+		sec2.classList.remove('active');
+		sec3.classList.add('active');
+		sec4.classList.remove('active');
+		sec5.classList.remove('active');
+		sec6.classList.remove('active');
+		sec7.classList.remove('active');
+
+		text.innerHTML = `
+				<h4>Redefining</h4>
+				<h2>UX Strategy</h2>
+				<h5>and UI design</h5>`;
+	} else if (draw <= 407.9067077636719 && draw > 286.975840485041) {
+		text.className = ' ';
+		text.classList.add('sec4');
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
@@ -117,8 +158,23 @@ owl.on('changed.owl.carousel', function (e) {
 		dot7.style.stroke = 'none';
 
 		svg.style.background = '#1A57BB';
-	} else if (current === 4) {
-		line.style.strokeDashoffset = 280.3431555175781;
+		leftSection.style.background = '#1A57BB';
+
+		sec1.classList.remove('active');
+		sec2.classList.remove('active');
+		sec3.classList.remove('active');
+		sec4.classList.add('active');
+		sec5.classList.remove('active');
+		sec6.classList.remove('active');
+		sec7.classList.remove('active');
+
+		text.innerHTML = `
+				<h4>Stay Connected</h4>
+				<h2>With Social Media</h2>
+				<h5>and Get Notified</h5>`;
+	} else if (draw <= 286.975840485041 && draw > 142.2347506334155) {
+		text.className = ' ';
+		text.classList.add('sec5');
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
@@ -133,8 +189,23 @@ owl.on('changed.owl.carousel', function (e) {
 		dot7.style.stroke = 'none';
 
 		svg.style.background = '#05298D';
-	} else if (current === 5) {
-		line.style.strokeDashoffset = 144.62146911621096;
+		leftSection.style.background = '#05298D';
+
+		sec1.classList.remove('active');
+		sec2.classList.remove('active');
+		sec3.classList.remove('active');
+		sec4.classList.remove('active');
+		sec5.classList.add('active');
+		sec6.classList.remove('active');
+		sec7.classList.remove('active');
+
+		text.innerHTML = `
+				<h4>Redefining</h4>
+				<h2>UX Strategy</h2>
+				<h5>and UI design</h5>`;
+	} else if (draw <= 142.2347506334155 && draw > 0) {
+		text.className = ' ';
+		text.classList.add('sec6');
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
@@ -148,8 +219,23 @@ owl.on('changed.owl.carousel', function (e) {
 		dot7.style.stroke = 'none';
 
 		svg.style.background = '#DC3545';
-	} else if (current === 6) {
-		line.style.strokeDashoffset = 0;
+		leftSection.style.background = '#DC3545';
+
+		sec1.classList.remove('active');
+		sec2.classList.remove('active');
+		sec3.classList.remove('active');
+		sec4.classList.remove('active');
+		sec5.classList.remove('active');
+		sec6.classList.add('active');
+		sec7.classList.remove('active');
+
+		text.innerHTML = `
+				<h4>Redefining</h4>
+				<h2>UX Strategy</h2>
+				<h5>and UI design</h5>`;
+	} else if (draw === 0) {
+		text.className = ' ';
+		text.classList.add('sec7');
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
@@ -161,5 +247,19 @@ owl.on('changed.owl.carousel', function (e) {
 		dot7.style.stroke = 'rgb(0, 146, 255)';
 
 		svg.style.background = '#0B944D';
+		leftSection.style.background = '#0B944D';
+
+		sec1.classList.remove('active');
+		sec2.classList.remove('active');
+		sec3.classList.remove('active');
+		sec4.classList.remove('active');
+		sec5.classList.remove('active');
+		sec6.classList.remove('active');
+		sec7.classList.add('active');
+
+		text.innerHTML = `
+				<h4>World</h4>
+				<h2>Biggest Classified </h2>
+				<h5>East Asia Countries</h5>`;
 	}
 });
