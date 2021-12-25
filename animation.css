@@ -54,28 +54,56 @@
 	padding-left: 50px;
 }
 .active .animate16 {
-	animation: fadeInRight 1s ease-in-out;
+	animation: fadeInRight 0.5s ease-in-out;
 }
 
 .sec1 {
-	animation: fadeInLeft 1s ease-in-out;
+	animation: fadeInLeft 0.5s ease-in-out;
 }
 .sec2 {
-	animation: fadeInUp 1s ease-in-out;
+	animation: fadeInUp 0.5s ease-in-out;
 }
 .sec3 {
-	animation: fadeInDown 1s ease-in-out;
+	animation: fadeInLeft 0.5s ease-in-out;
 }
 .sec4 {
-	animation: slideInLeft 1s ease-in-out;
+	animation: fadeInUp 0.5s ease-in-out;
 }
 .sec5 {
-	animation: fadeInUp 1s ease-in-out;
+	animation: fadeInLeft 0.5s ease-in-out;
 }
 .sec6 {
-	animation: fadeInLeft 1s ease-in-out;
+	animation: fadeInUp 0.5s ease-in-out;
 }
 .sec7 {
+	animation: fadeInLeft 0.5s ease-in-out;
+}
+
+.sec-left1 h1,
+.sec-left2 h1,
+.sec-left3 h1,
+.sec-left4 h1,
+.sec-left5 h1,
+.sec-left6 h1,
+.sec-left7 h1 {
+	animation: fadeInUp 1s ease-in-out;
+}
+.sec-left1 h3,
+.sec-left2 h3,
+.sec-left3 h3,
+.sec-left4 h3,
+.sec-left5 h3,
+.sec-left6 h3,
+.sec-left7 h3 {
+	animation: fadeInLeft 1s ease-in-out;
+}
+.sec-left1 img,
+.sec-left2 img,
+.sec-left3 img,
+.sec-left4 img,
+.sec-left5 img,
+.sec-left6 img,
+.sec-left7 img {
 	animation: fadeIn 1s ease-in-out;
 }
 

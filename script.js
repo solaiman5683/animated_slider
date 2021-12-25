@@ -41,6 +41,7 @@ contentSection.addEventListener('scroll', () => {
 	if (draw <= 815.8134155273438 && draw > 682.6874990844726) {
 		text.className = ' ';
 		text.classList.add('sec1');
+		leftSection.className = 'col-md-5 sec-left1';
 
 		dot1.style.fill = 'rgb(0, 146, 255)';
 		dot2.style.fill = 'rgba(255, 253, 253, 0.349)';
@@ -110,6 +111,7 @@ contentSection.addEventListener('scroll', () => {
 	} else if (draw <= 682.6874990844726 && draw > 543.8756103515625) {
 		text.className = ' ';
 		text.classList.add('sec2');
+		leftSection.className = 'col-md-5 sec-left2';
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgba(255, 253, 253, 0.349)';
@@ -178,6 +180,7 @@ contentSection.addEventListener('scroll', () => {
 	} else if (draw <= 543.8756103515625 && draw > 407.9067077636719) {
 		text.className = ' ';
 		text.classList.add('sec3');
+		leftSection.className = 'col-md-5 sec-left3';
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
@@ -244,6 +247,7 @@ contentSection.addEventListener('scroll', () => {
 	} else if (draw <= 407.9067077636719 && draw > 286.975840485041) {
 		text.className = ' ';
 		text.classList.add('sec4');
+		leftSection.className = 'col-md-5 sec-left4';
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
@@ -309,6 +313,7 @@ contentSection.addEventListener('scroll', () => {
 	} else if (draw <= 286.975840485041 && draw > 142.2347506334155) {
 		text.className = ' ';
 		text.classList.add('sec5');
+		leftSection.className = 'col-md-5 sec-left5';
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
@@ -373,6 +378,7 @@ contentSection.addEventListener('scroll', () => {
 	} else if (draw <= 142.2347506334155 && draw > 0) {
 		text.className = ' ';
 		text.classList.add('sec6');
+		leftSection.className = 'col-md-5 sec-left6';
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
@@ -436,6 +442,7 @@ contentSection.addEventListener('scroll', () => {
 	} else if (draw === 0) {
 		text.className = ' ';
 		text.classList.add('sec7');
+		leftSection.className = 'col-md-5 sec-left7';
 
 		dot2.style.fill = 'rgb(0, 146, 255)';
 		dot3.style.fill = 'rgb(0, 146, 255)';
