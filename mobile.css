@@ -1,0 +1,51 @@
+.h-60 {
+	height: 60%;
+}
+
+.h-40 {
+	height: 40%;
+}
+
+.owl-carousel .owl-item img {
+	width: auto !important;
+}
+
+.slider1 .right {
+	background: #5c00a0;
+}
+.slider2 .left {
+	background: #4918c5;
+}
+.slider2 .right {
+	background: #1a005e;
+}
+.slider3 .left {
+	background: #162539;
+}
+.slider3 .right {
+	background: #0e141b;
+}
+.slider4 .left {
+	background: #1a57bb;
+}
+.slider4 .right {
+	background: #214b8f;
+}
+.slider5 .left {
+	background: #05298d;
+}
+.slider5 .right {
+	background: #1750ec;
+}
+.slider6 .left {
+	background: #dc3545;
+}
+.slider6 .right {
+	background: #881f29;
+}
+.slider7 .left {
+	background: #0b944d;
+}
+.slider7 .right {
+	background: #0d582a;
+}

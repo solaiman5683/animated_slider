@@ -78,3 +78,64 @@
 .sec7 {
 	animation: fadeIn 1s ease-in-out;
 }
+
+/* Mobile Animation */
+
+.owl-item.active .animate01 {
+	animation: fadeInDown 1s ease-in-out;
+	padding-left: 50px;
+}
+.owl-item.active .animate02 {
+	animation: fadeInUp 1s ease-in-out;
+}
+.owl-item.active .animate1 {
+	animation: fadeInUp 1s ease-in-out;
+	padding-left: 50px;
+	text-align: right;
+}
+.owl-item.active .animate2 {
+	animation: fadeInDown 1s ease-in-out;
+}
+.owl-item.active .animate3 {
+	animation: fadeInLeft 1s ease-in-out;
+}
+.owl-item.active .animate4 {
+	animation: fadeInUp 1s ease-in-out;
+}
+.owl-item.active .animate5 {
+	animation: fadeInRight 1s ease-in-out;
+}
+.owl-item.active .animate6 {
+	animation: fadeInLeft 1s ease-in-out;
+}
+.owl-item.active .animate7 {
+	animation: fadeInUp 1s ease-in-out;
+}
+.owl-item.active .animate8 {
+	animation: fadeInLeft 1s ease-in-out;
+}
+.owl-item.active .animate9 {
+	animation: fadeInUp 1s ease-in-out;
+}
+.owl-item.active .animate10 {
+	animation: fadeInTopRight 1s ease-in-out;
+}
+.owl-item.active .animate11 {
+	animation: fadeInBottomRight 1s ease-in-out;
+}
+.owl-item.active .animate12 {
+	animation: fadeInLeft 1s ease-in-out;
+}
+.owl-item.active .animate13 {
+	animation: fadeInUp 1s ease-in-out;
+}
+.owl-item.active .animate14 {
+	animation: zoomInRight 1s ease-in-out;
+}
+.owl-item.active .animate15 {
+	animation: zoomInUp 1s ease-in-out;
+	padding-left: 50px;
+}
+.owl-item.active .animate16 {
+	animation: slideInRight 1s ease-in-out;
+}
